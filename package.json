@@ -1,0 +1,49 @@
+{
+  "name": "egg-freelog-database",
+  "version": "0.0.7",
+  "description": "",
+  "eggPlugin": {
+    "name": "freelogDataBase"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin"
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config"
+  ],
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-freelog-database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-freelog-database#readme",
+  "author": "yu.liang@freelog.com",
+  "files": [
+    "app",
+    "lib",
+    "agent.js",
+    "app.js"
+  ],
+  "license": "MIT"
+}
