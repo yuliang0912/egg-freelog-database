@@ -14,6 +14,6 @@ module.exports = {
      * @returns {*}
      */
     get knex() {
-        return this.app.knex1
+        return this.app.knex
     }
 }

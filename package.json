@@ -1,6 +1,6 @@
 {
   "name": "egg-freelog-database",
-  "version": "0.0.7",
+  "version": "1.0.3",
   "description": "",
   "eggPlugin": {
     "name": "freelogDataBase"
@@ -22,10 +22,9 @@
     "pkgfiles": "egg-bin pkgfiles"
   },
   "files": [
-    "index.js",
-    "app.js",
-    "agent.js",
-    "config"
+    "app",
+    "lib",
+    "app.js"
   ],
   "ci": {
     "version": "8, 9"
