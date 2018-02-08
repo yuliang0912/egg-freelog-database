@@ -34,5 +34,14 @@ module.exports = {
      */
     get dal() {
         return this.dataProvider
-    }
+    },
+
+    /**
+     * moogoose-model转换成js对象
+     * @param data
+     * @returns {*}
+     */
+    toObject(data) {
+        return data && data.toObject ? data.toObject() : data
+    },
 }
